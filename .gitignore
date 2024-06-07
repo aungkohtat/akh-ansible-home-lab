@@ -1,0 +1,33 @@
+# Ignore Ansible log files
+*.log
+
+# Ignore Ansible fact caching directory
+.ansible/
+
+# Ignore Ansible generated artifacts
+*.retry
+*.ini
+
+# Ignore Ansible playbook artifacts
+*.retry
+
+# Ignore Ansible virtual environment
+venv/
+# Ignore Vagrant log files
+*.log
+
+# Ignore Vagrant environment state
+.vagrant/
+
+# Ignore VirtualBox VM files
+*.vbox/
+*.vbox-prev/
+*.vmx
+*.vmxf
+*.vagrantfile
+
+# Ignore temporary files
+*~
+
+# Ignore any sensitive or environment-specific files
+.env
